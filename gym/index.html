@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAIZAN GYM</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100&display=swap" rel="stylesheet">
+</head>
+<style>
+    body
+    {
+        color: white;
+        margin : 0px;
+        padding:0px;
+        background: url('img/img1.jpg');
+        font-family: 'Noto Sans Mono', monospace;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        overflow: hidden;
+
+    }
+    .left
+    {
+        display: inline-block;
+        position:absolute;
+        left:40px;
+        top:20px;
+        
+    }
+    .mid
+    {
+        display: block;
+        width:60%;
+        margin: 10px auto;
+        text-align: center;
+
+    }
+    .right
+    {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+    }
+    .navbar 
+    {
+        display: inline-block;
+    }
+    .navbar li{
+
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a
+    {
+        color: white;
+        text-decoration: none;
+        padding:10px
+    }
+    .navbar li a:hover
+    {
+        text-decoration: underline;
+        color:blue;
+    }
+    .left img{
+        width: 45px;
+        margin-left: 8px;
+        border-radius:50%;
+        }
+    .left div{
+        font-size: small;
+    }
+    .btn
+    {
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 17px;
+        border:2px solid grey;
+        border-radius : 10px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: 'Noto Sans Mono', monospace;
+    }
+    .btn:hover
+    {
+        background-color:blue;
+    }
+    .container
+    {
+        margin:55px 60px;
+        padding: 77px;
+        width: 33%;
+        border-radius:28px;
+        font-size: small;
+    }
+    .container h1
+    {
+        padding:2px 2px;
+    }
+    .form-group input {
+        font-family: 'Noto Sans Mono', monospace;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px ;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+        /* padding: 10px; */
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left"> 
+            <img src="img/im2.jpg" 
+            >
+            <div>Faiz gym</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Sign up</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call me now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of SEDAM</h1>
+        <form action="noaction.php">
+            <div class="form-group"><input type="text" name="" placeholder="Enter your name"></div>
+            <div class="form-group"><input type="text" name="" placeholder="Enter your age"></div>
+            <div class="form-group"><input type="text" name="" placeholder="Enter your mobileNo"></div>
+            <div class="form-group"><input type="text" name="" placeholder="Enter your address"></div>
+
+            <button class="btn">Submit</button>
+
+        </form>
+    </div>
+    
+</body>
+</html>
